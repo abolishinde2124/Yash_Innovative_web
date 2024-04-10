@@ -135811,27 +135811,26 @@ A.aQy.prototype={
 $0(){this.a.d=null},
 $S:0}
 A.WW.prototype={
-F(a){var s,r,q,p,o,n,m=this,l=null,k=m.e,j=t.p,i=A.bY(A.b([A.aM("Attendance Details",l,l,l,l,A.O(a).p3.w,l,l),A.hL(l,l,l,B.mu,l,l,m.d,l,l,l,l)],j),B.p,B.d8,B.n),h=m.c,g=h.Q,f=g.giW(0)
-f=A.cc(A.b([new A.kY(g.f,180,180,42,l),A.aM(f,l,l,l,l,B.ot,B.cn,l)],j),B.p,B.u,B.n)
-s=A.iG(g.b,l,l,"Email")
-g=A.iG(g.e,l,l,"Phone")
-r=A.iG(A.IV(h.w),l,l,"CheckIn Time")
-q=h.y
-q=q==null?l:q.at
-q=A.iG(q,l,new A.amb(m),"CheckIn Location")
-p=h.f
-o=p==null
-n=o?"":p
-n=A.AI(!0,A.cc(A.b([r,q,A.iG(l,A.bgl(n,new A.amc(),B.la),l,"CheckIn Image")],j),B.p,B.u,B.n))
-r=h.x
-if(r==null)h=B.ae
-else{r=A.iG(A.IV(r),l,l,"CheckOut Time")
-h=h.z
-h=h==null?l:h.at
-h=A.iG(h,l,new A.amd(m),"CheckOut Location")
-q=o?"":p
-q=A.AI(!0,A.cc(A.b([r,h,A.iG(l,A.bgl(q,new A.ame(),B.la),l,"CheckOut Image")],j),B.p,B.u,B.n))
-h=q}return new A.bc(B.iB,A.cB(new A.mD(A.mW(A.b([i,B.hQ,f,s,g,n,h,B.ai],j),B.J,l,l,l,B.a0,!1),l,l),k.b,k.a),l)}}
+F(a){var s,r,q,p,o=this,n=null,m=o.e,l=t.p,k=A.bY(A.b([A.aM("Attendance Details",n,n,n,n,A.O(a).p3.w,n,n),A.hL(n,n,n,B.mu,n,n,o.d,n,n,n,n)],l),B.p,B.d8,B.n),j=o.c,i=j.Q,h=i.giW(0)
+h=A.cc(A.b([new A.kY(i.f,180,180,42,n),A.aM(h,n,n,n,n,B.ot,B.cn,n)],l),B.p,B.u,B.n)
+s=A.iG(i.b,n,n,"Email")
+i=A.iG(i.e,n,n,"Phone")
+r=A.iG(A.IV(j.w),n,n,"CheckIn Time")
+q=j.y
+q=q==null?n:q.at
+q=A.iG(q,n,new A.amb(o),"CheckIn Location")
+p=j.f
+if(p==null)p=""
+p=A.AI(!0,A.cc(A.b([r,q,A.iG(n,A.bgl(p,new A.amc(),B.la),n,"CheckIn Image")],l),B.p,B.u,B.n))
+r=j.x
+if(r==null)j=B.ae
+else{r=A.iG(A.IV(r),n,n,"CheckOut Time")
+q=j.z
+q=q==null?n:q.at
+q=A.iG(q,n,new A.amd(o),"CheckOut Location")
+j=j.r
+if(j==null)j=""
+j=A.AI(!0,A.cc(A.b([r,q,A.iG(n,A.bgl(j,new A.ame(),B.la),n,"CheckOut Image")],l),B.p,B.u,B.n))}return new A.bc(B.iB,A.cB(new A.mD(A.mW(A.b([k,B.hQ,h,s,i,p,j,B.ai],l),B.J,n,n,n,B.a0,!1),n,n),m.b,m.a),n)}}
 A.amb.prototype={
 $0(){var s=0,r=A.x(t.H),q=this,p,o,n
 var $async$$0=A.q(function(a,b){if(a===1)return A.u(b,r)
